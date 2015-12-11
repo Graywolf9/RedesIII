@@ -1,3 +1,4 @@
+<!-- Capetillo Gomez Delia Nayeli -->
 <?php require 'conexion.php'; ?>
 <!DOCTYPE html>
 <HTML>
