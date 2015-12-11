@@ -1,0 +1,50 @@
+#encabezado {
+	width: 99%;
+	position: absolute;
+	top: 0px;
+	font-family: "Poiret One";
+	background: blue;
+	color: white;
+}
+
+#pie {
+	width: 99%;
+	position: absolute;
+	bottom: 0px;
+	font-family: "Poiret One";
+	background: blue;
+	color: white;
+}
+
+#p a, #m a {
+	text-decoration: none;
+	color: white;
+}
+
+#coordinacion, #contacto, #principal, #alumnos {
+	width: 30%;
+	margin: 13% auto;
+	text-align: center;
+	font-family: "Montserrat";
+}
+
+
+#principal {
+	font-family: "Indie Flower";
+	font-size: 15rem;
+}
+
+#p > #menu {
+	list-style-type: none;
+}
+
+#p > #menu > li {
+	display: inline;
+    margin-right: 20%;
+    font-size: 3em;
+}
+
+#p #pmenu3 {
+	position: absolute;
+	background: blue;
+}
