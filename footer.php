@@ -5,10 +5,7 @@
 		</DIV>
 	</BODY>
 	<SCRIPT TYPE="text/javascript">
-		var disp = navigator.userAgent.toLowerCase();
-		var m = false;
-	    if (disp.search(/iphone|ipod|ipad|android/) > -1) m = true;
-	    if (m){
+	    if (mobil){
 	    	document.write("\
         		<STYLE>\
         			#pie, INPUT {\
