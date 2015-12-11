@@ -4,4 +4,28 @@
 	        Teléfono: +52 (33) 3770 3300</br>
 		</DIV>
 	</BODY>
+	<SCRIPT TYPE="text/javascript">
+		var disp = navigator.userAgent.toLowerCase();
+		var m = false;
+	    if (disp.search(/iphone|ipod|ipad|android/) > -1) m = true;
+	    if (m){
+	    	document.write("\
+        		<STYLE>\
+        			#pie, INPUT {\
+        				font-size: 2rem;\
+        			}\
+        			#contacto, #alumnos {\
+        				font-size: 3rem;\
+        				width: 70%;\
+        			}\
+        			TABLE {\
+        				font-size: 15px;\
+        			}\
+        			INPUT {\
+        				border: 3px solid black;\
+        			}\
+        		</STYLE>\
+        	");
+	    }
+	</SCRIPT>
 </HTML>

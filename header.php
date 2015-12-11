@@ -24,23 +24,10 @@
 	</HEAD>
 	<BODY>
 		<DIV id="encabezado">
-			<SCRIPT TYPE="text/javascript">
-				var dispositivo = navigator.userAgent.toLowerCase();
-				var mobil = false;
-			    if (dispositivo.search(/iphone|ipod|ipad|android/) > -1) mobil = true;
-			    if (mobil){
-			    	document.getElementById('p').style.display = "none";
-			    	document.getElementById('m'.style.display = "block";
-			    }
-	            function mostrar(){
-	                //document.getElementById("menu3").style.display = "block";
-	                alert("1");
-	            }
-			</SCRIPT>
 			<DIV id="p">
 				<UL id="menu">
 		    		<LI onmouseover="document.getElementById('pmenu3').style.display = 'block'" onmouseout="document.getElementById('pmenu3').style.display = 'none'">
-		    			<A id="menu2" HREF="#">Menu</A>
+		    			<A HREF="."><IMG style="height: 64px" SRC="http://148.202.62.2/uiv15/images/logo%20udg%20BLANCO.png"/></A><A id="menu2" HREF="#">Menu</A>
 		    			<UL id="pmenu3" style="display: none">
 		    				<LI><A HREF="alumnos.php">Alumnos</A></LI>
 		    				<LI><A HREF="estatus.php">Estatus</A></LI>
@@ -53,20 +40,32 @@
 		    	</UL>
 		    </DIV>
 		    <DIV id="m" style="display: none">
-		    	<UL><LI><IMG alter="menu" src="">
-			    	<UL id="menu">
-			    		<LI>
-			    			<A id="menu2" HREF="#">Menu</A>
-			    			<UL id="mmenu3" style="display: none">
-			    				<LI><A HREF="alumnos.php">Alumnos</A></LI>
-			    				<LI><A HREF="estatus.php">Estatus</A></LI>
-			    				<LI><A HREF="semestre.php">Semestre</A></LI>
-			                    <LI><A HREF="modalidad.php">Modalidad</A></LI>
-			    			</UL>
-			    		</LI>
-			    		<LI><A HREF="contacto.php">Contacto</A></LI>
-			    		<LI><A HREF="coordinacion.php">Coordinación</A></LI>
-			    	</UL>
-		    	</LI></UL>
+		    	<UL>
+		    		<LI onmouseover="document.getElementById('mmenu2').style.display = 'block'" onmouseout="document.getElementById('mmenu2').style.display = 'none'">
+		    			<A HREF="."><IMG style="height: 64px" SRC="http://148.202.62.2/uiv15/images/logo%20udg%20BLANCO.png"/></A><A id="menu2" HREF="#">Menu</A>
+		    			<UL id="mmenu2" style="display: none">
+		    				<LI onmouseover="document.getElementById('mmenu3').style.display = 'block'" onmouseout="document.getElementById('mmenu3').style.display = 'none'">
+				    			<A id="menu2" HREF="#">Opciones</A>
+				    			<UL id="mmenu3" style="display: none">
+				    				<LI><A HREF="alumnos.php">Alumnos</A></LI>
+				    				<LI><A HREF="estatus.php">Estatus</A></LI>
+				    				<LI><A HREF="semestre.php">Semestre</A></LI>
+				                    <LI><A HREF="modalidad.php">Modalidad</A></LI>
+				    			</UL>
+				    		</LI>
+				    		<LI><A HREF="contacto.php">Contacto</A></LI>
+				    		<LI><A HREF="coordinacion.php">Coordinación</A></LI>
+		    			</UL>
+		    		</LI>
+		    	</UL>
 		    </DIV>
+		    <SCRIPT TYPE="text/javascript">
+				var dispositivo = navigator.userAgent.toLowerCase();
+				var mobil = false;
+			    if (dispositivo.search(/iphone|ipod|ipad|android/) > -1) mobil = true;
+			    if (mobil){
+			    	document.getElementById('p').style.display = "none";
+			    	document.getElementById('m').style.display = "block";
+			    }
+			</SCRIPT>
 		</DIV>

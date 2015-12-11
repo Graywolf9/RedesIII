@@ -83,7 +83,7 @@
 						Nombre: <INPUT TYPE=text NAME="Nombre" /><br/>
 						Ingreso: <INPUT TYPE=date NAME="Ingreso" /><br/>
 						<INPUT TYPE=submit VALUE="Agregar" NAME="nuevo" />
-					</FORM>
+					</FORM></DIV>
 				<?php }
 			?>
 <?php require 'footer.php'; ?>
